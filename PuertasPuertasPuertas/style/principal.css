@@ -7,6 +7,10 @@ body {
     align-items: center;
 }
 
+.Marginado {
+    margin: 100px;
+}
+
 #boton {
     width: 200px;
     height: 70px;

@@ -1,14 +1,16 @@
-body {
-    width: 100%;
-    height: 100vh;
-    background: #1db954;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+* {
+    margin: 0px;
+    padding: 0px
 }
 
+body {
+    background: #5ba7ffd5;
+}
+
+/*
 .Marginado {
     margin: 100px;
+    display: flex;
 }
 
 #boton {
@@ -20,6 +22,7 @@ body {
     font-weight: bold;
     color: royalblue;
     cursor: pointer;
+    float: left;
 }
 
 #boton:active {
@@ -27,3 +30,4 @@ body {
     text-decoration: underline;
     background: url(../img/trippy2.gif);
 }
+*/

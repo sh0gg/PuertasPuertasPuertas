@@ -15,22 +15,10 @@
         <div>
             <h1>Puertas falsas que no llevan a ninguna parte</h1>
         </div>
-       
+
     </header>
-    <nav id="subMenu">
-        <div>
-            <ul id="listaSubMenu">
-                <li><a href="#">Hola</a></li>
-                <li><a href="#">Mundo</a>
-                    <ul>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">Ipsum</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Lorena</a></li>
-                <li><a href="#">Ipsuma</a></li>
-            </ul>
-        </div>
+    <nav>
+       
     </nav>
     <main>
         <div class="div1">
@@ -39,7 +27,7 @@
         <div class="div1">
             <img src="./img/puerta_corredera.jpg" width="200px" height="200px">
         </div>
-<!--        
+        <!--        
         <div class="div1">
             <button onclick="document.getElementById('myImage').src='./img/puerta_cerrada.png'">Cerrar Puerta</button>
             <button onclick="document.getElementById('myImage').src='./img/puerta_abierta.png'">Abrir Puerta</button>
@@ -52,21 +40,22 @@
         <div class="div1">
             <img src="./img/puerta_doble.png" width="200px" height="200px">
         </div>
+        <div class="Marginado">
+            <button id="boton" onmousedown="clickOn.play();" onmouseup="clickOff.play()"> Clickame! </button>
+        </div>
+        <div>
+            <button onmousedown="document.getElementById('pepe').src='./img/crypepe.jpg'"
+                onmouseup="document.getElementById('pepe').src='./img/sadpepe.jpg'">Choromicas</button>
+            <br />
+            <br />
+            <img id="pepe" src="./img/sadpepe.jpg" style="width:200px;height:200px;">
+        </div>
+        <script type="text/javascript" src="./script/clicksound.js"></script>
     </main>
     <footer>
 
     </footer>
 </body>
 
-    <div class="Marginado">
-        <button id="boton" onmousedown="clickOn.play();" onmouseup="clickOff.play()" > Clickame! </button>
-        <script type="text/javascript" src="./script/clicksound.js"></script>
-    </div>
-    <div>
-        <button onmousedown="document.getElementById('pepe').src='./img/crypepe.jpg'" onmouseup="document.getElementById('pepe').src='./img/sadpepe.jpg'">Choromicas</button>
-        <br />
-        <br />
-        <img id="pepe" src="./img/sadpepe.jpg" style="width:200px;height:200px;">
-    </div>
 
 </html>

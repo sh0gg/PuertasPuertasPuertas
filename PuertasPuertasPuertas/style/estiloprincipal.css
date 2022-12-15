@@ -193,9 +193,10 @@ footer{
 }
 .above{
     left: 0;
-    top: 100px;
+    bottom: 0;
     width: auto;
-    height: 200px;
+    max-height: 500px;
+    min-height: 100px;
     position: absolute;
 }
 footer p{

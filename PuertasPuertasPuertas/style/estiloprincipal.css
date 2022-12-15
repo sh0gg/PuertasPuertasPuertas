@@ -29,34 +29,6 @@ header {
   align-items: center;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-
-main {
-  padding: 70px 20px 0;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-main > div {
-  margin: auto;
-  max-width: 600px;
-}
-
-main h2 span {
-  color: #BF7497;
-}
-
-main p {
-  line-height: 1.5;
-  font-weight: 200;
-  margin: 20px 0;
-}
-
-main small {
-  font-weight: 300;
-  color: #888;
-}
-
 #nav-container {
   position: fixed;
   height: 100vh;
@@ -81,7 +53,6 @@ main small {
 #nav-container * {
   visibility: visible;
 }
-
 .button {
   position: relative;
   display: flex;
@@ -110,7 +81,6 @@ main small {
 .icon-bar + .icon-bar {
   margin-top: 5px;
 }
-
 #nav-container:focus-within .button {
   pointer-events: none;
 }
@@ -123,7 +93,6 @@ main small {
 #nav-container:focus-within .icon-bar:nth-of-type(3) {
   transform: translate3d(0,-8px,0) rotate(-45deg);
 }
-
 #nav-content {
   margin-top: 70px;
   padding: 20px;
@@ -141,33 +110,27 @@ main small {
   will-change: transform;
   contain: paint;
 }
-
 #nav-content ul {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-
 #nav-content li a {
   padding: 10px 5px;
   display: block;
   text-transform: uppercase;
   transition: color .1s;
 }
-
 #nav-content li a:hover {
   color: #BF7497;
 }
-
 #nav-content li:not(.small) + .small {
   margin-top: auto;
 }
-
 .small {
   display: flex;
   align-self: center;
 }
-
 .small a {
   font-size: 12px;
   font-weight: 400;
@@ -176,27 +139,18 @@ main small {
 .small a + a {
   margin-left: 15px;
 }
-
 #nav-container:focus-within #nav-content {
   transform: none;
 }
-
-
-
-
-
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 html, body {
   height: 100%;
   flex-wrap: wrap;
 }
-
 a,
 a:visited,
 a:focus,
@@ -205,27 +159,22 @@ a:link {
   text-decoration: none;
   outline: 0;
 }
-
 a {
   color: currentColor;
   transition: .2s ease-in-out;
 }
-
 h1, h2, h3, h4 {
   margin: 0;
 }
-
 ul {
   padding: 0;
   list-style: none;
 }
-
 img {
   vertical-align: middle;
   height: auto;
   width: 100%;
 }
-
 footer{
     position: -webkit-sticky;
     position: sticky;
@@ -239,11 +188,9 @@ footer{
     text-align: center;
     max-width: 100%;
 }
-
 footer p{
     color: white;
 }
-
 .caja{
     width: 100%;
     height: 100%;

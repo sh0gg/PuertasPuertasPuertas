@@ -93,6 +93,11 @@ header {
 #nav-container:focus-within .icon-bar:nth-of-type(3) {
   transform: translate3d(0,-8px,0) rotate(-45deg);
 }
+
+/* revisar */
+#nav-container:focus-within .above {
+  visibility: hidden;
+}
 #nav-content {
   margin-top: 70px;
   padding: 20px;
@@ -174,6 +179,10 @@ img {
   vertical-align: middle;
   height: auto;
   width: 100%;
+}
+#imgtitulo {
+  height: 4em;
+  width: auto;
 }
 footer{
     position: -webkit-sticky;

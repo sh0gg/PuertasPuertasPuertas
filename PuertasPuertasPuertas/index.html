@@ -1,63 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es_ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style/principal.css">
-    <link rel="stylesheet" type="text/css" href="./style/grid.css">
-    <title>Document</title>
+    <title>PuertasFalsas.es</title>
+    <link type="text/css" rel="stylesheet" href="./style/estiloprincipal.css">
 </head>
-
 <body>
-    <header id="tituloPagina">
-        <div>
-            <h1>AHHHHHHHHHHHHHHHHHH</h1>
+    <div class="page">
+        <header tabindex="0">Header</header>
+        <div id="nav-container">
+          <div class="bg"></div>
+          <div class="button" tabindex="0">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+          <div id="nav-content" tabindex="0">
+            <ul>
+              <li><a href="#0">Home</a></li>
+              <li><a href="#0">Services</a></li>
+              <li><a href="#0">Blog</a></li>
+              <li><a href="#0">About</a></li>
+              <li><a href="#0">Contact</a></li>
+              <li class="small"><a href="#0">Facebook</a><a href="#0">Instagram</a></li>
+            </ul>
+          </div>
         </div>
-
-    </header>
-    <nav>
-       
-    </nav>
-    <main>
-    <!--     <div class="div1">
-            <img src="./img/puerta_minecraft.jpg" width="200px" height="200px">
-        </div>
-        <div class="div1">
-            <img src="./img/puerta_corredera.jpg" width="200px" height="200px">
-        </div>
-               
-        <div class="div1">
-            <button onclick="document.getElementById('myImage').src='./img/puerta_cerrada.png'">Cerrar Puerta</button>
-            <button onclick="document.getElementById('myImage').src='./img/puerta_abierta.png'">Abrir Puerta</button>
-            <img id="myImage" src="./img/puerta_abierta.png" style="width: 200px; height: 200px;">
-        </div>
-
-        <div class="div1">
-            <img src="./img/puerta_cerrada.png" width="200px" height="200px">
-        </div>
-        <div class="div1">
-            <img src="./img/puerta_doble.png" width="200px" height="200px">
-        </div>
--->
-        <div class="Marginado">
-            <button id="boton" onmousedown="clickOn.play();" onmouseup="clickOff.play()"> Clickame! </button>
-        </div>
-        <div>
-            <button onmousedown="document.getElementById('pepe').src='./img/crypepe.jpg'"
-                onmouseup="document.getElementById('pepe').src='./img/sadpepe.jpg'">Choromicas</button>
-            <br />
-            <br />
-            <img id="pepe" src="./img/sadpepe.jpg" style="width:200px;height:200px;">
-        </div>
-        <script type="text/javascript" src="./script/clicksound.js"></script>
-        <script type="text/javascript" src="./script/clickpepe.js"></script>
-    </main>
-    <footer>
-
-    </footer>
+      
+        <main>
+          <div class="content">
+            <h2>Off-screen navigation using <span>:focus-within</span></h2>
+            <p>Adding yet another pure CSS technique to the list of off-screen navigation by "hacking" the :focus-within pseudo-class. Have a look at the code to see how it works.</p>
+            <small><strong>NB!</strong> Use a browser that supports :focus-within</small>
+          </div>
+        </main>
+      </div>
 </body>
-
-
 </html>

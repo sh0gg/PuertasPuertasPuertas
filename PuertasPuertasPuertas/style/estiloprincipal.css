@@ -94,10 +94,13 @@ header {
   transform: translate3d(0,-8px,0) rotate(-45deg);
 }
 
-/* revisar */
+/* 
+revisar 
 #nav-container:focus-within .above {
   visibility: hidden;
 }
+*/
+
 #nav-content {
   margin-top: 70px;
   padding: 20px;

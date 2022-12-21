@@ -201,11 +201,11 @@ ul {
   list-style: none;
 }
 
-img {
+/* img {
   vertical-align: middle;
   height: auto;
   width: 100%;
-}
+} */
 
 #imgtitulo {
   height: 4em;

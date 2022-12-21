@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
+
+@keyframes hoverfoto {
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 300px;
+    margin-right: 50px;
+    gap: 20px;
+    background-color: #99ceff;
+    padding: 5px;
+}
+
+.puertas {
+    height: 300px;
+    width: 300px;
+    background-color: #cce6ff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.puertas p {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: bold;
+}

@@ -1,17 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
 
-@keyframes hoverfoto {
-    
+@keyframes hacerHover {
+    0% {
+      transform: scale(100%);
+    }
+    100% {
+        transform: scale(105%);
+  }
 }
+@keyframes dejarHover {
+    0% {
+        transform: scale(105%);
+    }
+    100% {
+        transform: scale(100%);
+    }
 
+}
 .grid {
+    border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 300px;
     margin-right: 50px;
     gap: 20px;
     background-color: #99ceff;
-    padding: 5px;
+    padding: 20px;
+    justify-items: center;
 }
 
 .puertas {
@@ -22,7 +37,32 @@
     text-align: center;
     padding: 10px;
 }
+:hover.puertas {
+    animation: hacerHover;
+    animation-duration: 0.5s;
+    transform: scale(105%);
+}
+:not(:hover).puertas {
+    animation: dejarHover;
+    animation-duration: 0.5s;
+}
 
+@keyframes agitar {
+    0% {
+        transform: rotate(0deg) translateY(0);
+      }
+      50% {
+        transform: rotate(-5deg) translateY(-5px);
+      }
+      100% {
+        transform: rotate(0deg) translateY(0);
+      }
+    }
+
+.shake {
+    animation: agitar;
+    animation-duration: 0.5;
+}
 .puertas p {
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: bold;

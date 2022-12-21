@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,600');
 
+
 * {
   outline: none;
 }
@@ -8,14 +9,18 @@ strong {
   font-weight: 600;
 }
 
+#titulo {
+  text-align: center;
+  font-weight:bolder;
+}
 .page {
   width: 100%;
-  height: 100vh;
-  background: #fdfdfd;
+  height: 100%;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
   letter-spacing: .03em;
   color: #212121;
+  overflow: auto;
 }
 
 header {
@@ -64,6 +69,7 @@ header {
   flex-direction: column;
   justify-content: center;
   z-index: 1;
+  appearance: none;
   -webkit-appearance: none;
   border: 0;
   background: transparent;
@@ -134,9 +140,9 @@ header {
   padding: 3px;
 }
 
-  .hidden {
-    display: none;
-  }
+.hidden {
+  display: none;
+}
 
 #nav-content ul {
   height: 100%;
@@ -187,7 +193,7 @@ header {
 html,
 body {
   height: 100%;
-  flex-wrap: wrap;
+  overflow: auto;
 }
 
 a,
@@ -222,17 +228,13 @@ ul {
 }
 
 footer {
-  position: -webkit-sticky;
-  position: sticky;
-  align-self: flex-end;
-  top: 0;
-  bottom: 0;
   padding: 10px;
   font-size: 20px;
-  align-self: flex-end;
   background-color: black;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 #relativo {
@@ -260,13 +262,18 @@ footer p {
 }
 
 .kuala {
-
+  border-radius: 20px;
+  margin-right: 1600px;
+  margin-left: 10px;
+  background-color: #99ceff;
+  padding: 20px;
+  justify-items: center;
+  float: left;
 }
 
-#lugar {
-
+.kuala img {
+  width: 200px;
 }
-
 .tiempo {
-
+  font-size: 8pt;
 }

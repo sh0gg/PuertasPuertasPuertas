@@ -17,6 +17,38 @@
     }
 
 }
+/* moviles */
+@media screen and (max-width: 640px) {
+
+}
+
+/* un poco mas peque */
+@media screen and (min-width: 640) and (max-width: 914px) {
+
+}
+
+/* tableta */
+@media screen and (min-width: 914px) and (max-width: 1280px) {
+    .grid {
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 300px;
+        margin-right: 50px;
+        gap: 20px;
+        background-color: #99ceff;
+        padding: 20px;
+        justify-items: center;
+        margin-bottom: 50px;
+    }
+}
+
+
+a {
+    animation: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infitite;
+}
 .grid {
     border-radius: 20px;
     display: grid;
@@ -49,19 +81,21 @@
 }
 
 @keyframes agitar {
-    0% {
-        transform: rotate(0deg) translateY(0);
-      }
-      50% {
-        transform: rotate(-5deg) translateY(-5px);
-      }
-      100% {
-        transform: rotate(0deg) translateY(0);
-      }
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
     }
 
 .shake {
-    animation: agitar;
+    animation-name: agitar;
     animation-duration: 0.5;
 }
 .puertas p {
